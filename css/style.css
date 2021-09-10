@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+
+ body {
+	background-color: rgb(36, 41, 46);
+	height: 100vh;
+	color: #fff;
+	font-size: 1.2rem;
+	font-family: 'Asap', sans-serif;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+#logo img {
+	width: 7rem;
+	margin-top: 
+}
+
+.wrapper .intro-text {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.intro-text p {
+	color: #FFD700;
+}
+
+.wrapper .donation-info {
+	text-align: center;
+}
+
+.donation-info p {
+	margin-bottom: 3rem;
+}
+
+
+.donation-info .button {
+	background-color: #FFD700;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 5px;
+}
+
+.donation-info .button:hover {
+	background-color: #fff;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.social ul {
+	list-style-type: none;
+}
+
+.social ul li {
+	padding: 0 4px;
+}
+
+.social img {
+	width: 2rem;
+	cursor: pointer;
+}
+
+.social img:hover {
+	color: green;
+} 
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding:  0;
+  list-style-type: none;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: #080808;
+	color: #777;
+	position: fixed;
+	font-size: 0.7rem;
+	bottom: 0;
+	width: 100%;
+}
+
+
