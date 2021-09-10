@@ -110,8 +110,20 @@ footer a {
 }
 
 @media(max-width: 320px) {
+		
+
+
+	#logo img {
+	width: 5rem;
+	margin-top: 1rem; 
+}
+
 	h1 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 	margin: 10px auto;
 }
- }
+
+wrapper .intro-text {
+	margin-bottom: 1rem;
+}
+}

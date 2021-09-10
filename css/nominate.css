@@ -44,7 +44,9 @@ form {
   	width: 100%;
 }
 
-
+fieldset {
+	margin-bottom: 15px;
+}
 
 .form-control {
 	margin-bottom: 1rem;
