@@ -14,11 +14,13 @@ body {
 
 .wrapper {
 	max-width: 600px;
-	margin: 3rem auto;
+	margin: 1rem auto;
+	padding: 10px;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 2.5rem;
+	margin: 10px auto;
 }
 
 nav {
@@ -36,15 +38,13 @@ form {
   	box-shadow: 2px 7px 15px rgba(0, 0, 0, 0.4);
   	color: #000;
   	font-weight: bold;
-  	margin: 30px auto;
+  	margin-bottom: 40px;
   	padding: 30px 20px;
   	border-radius: 5px;
   	width: 100%;
 }
 
-fieldset {
-	margin-bottom: 1.5rem;
-}
+
 
 .form-control {
 	margin-bottom: 1rem;
@@ -94,13 +94,18 @@ footer {
 	background-color: #080808;
 	color: #777;
 	position: fixed;
-	font-size: 0.7rem;
+	font-size: 0.85rem;
 	bottom: 0;
 	width: 100%;
 }
 
+footer a {
+	text-decoration: none;
+	color: #777;
+}
 
-@media(mix-width: 320px) {
+
+@media(max-width: 320px) {
 	.wrapper {
 	max-width: 300px;
      }
