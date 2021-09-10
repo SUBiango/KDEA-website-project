@@ -111,4 +111,8 @@ footer a {
 	.wrapper {
 	max-width: 300px;
      }
+
+     footer {
+	font-size: 0.6rem;
+}
  }

@@ -113,7 +113,9 @@ footer a {
 
 @media(max-width: 320px) {
 		
-
+	.wrapper {
+	width:90%;
+}
 
 	#logo img {
 	width: 5rem;
@@ -125,7 +127,7 @@ footer a {
 	margin: 10px auto;
 }
 
-wrapper .intro-text {
+.wrapper .intro-text {
 	margin-bottom: 1rem;
 }
 
