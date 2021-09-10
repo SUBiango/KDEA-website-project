@@ -112,6 +112,10 @@ footer a {
 	max-width: 300px;
      }
 
+     h1 {
+	font-size: 1.5rem;
+}
+
      footer {
 	font-size: 0.6rem;
 }
