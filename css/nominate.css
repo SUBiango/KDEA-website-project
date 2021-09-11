@@ -99,19 +99,13 @@ button {
 }
 
 footer {
-	display: flex;
-	justify-content: center;
+	text-align: center;
 	background-color: #080808;
-	color: #777;
-	position: fixed;
-	font-size: 0.85rem;
-	bottom: 0;
-	width: 100%;
+	padding: 20px 0;
 }
 
-footer a {
-	text-decoration: none;
-	color: #777;
+footer p {
+	font-size: 1rem;
 }
 
 
@@ -129,15 +123,7 @@ footer a {
      }
 
      h1 {
-	font-size: 2rem;
-	}
-
-	form {
-	width: 80%;
-	}
-
-     footer {
-	font-size: 0.6rem;
+	font-size: 1.5rem;
 	}
 
 }
