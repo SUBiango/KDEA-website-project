@@ -1,12 +1,14 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
  body {
 	background-color: rgb(36, 41, 46);
 	margin: 0;
 	color: #fff;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-family: 'Asap', sans-serif;
 }
 
@@ -20,7 +22,6 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	margin: 0 auto;
 }
 
@@ -44,21 +45,21 @@ h1 {
 }
 
 .donation-info p {
-	margin-bottom: 3rem;
+	margin-bottom: 1.rem;
 }
 
-
-.donation-info .button {
+ .button {
 	background-color: #FFD700;
 	font-size: 20px;
 	color: #000;
 	font-weight: bold;
 	text-decoration: none;
+	margin: 15px 0;
 	padding: 10px 25px;
 	border-radius: 5px;
 }
 
-.donation-info .button:hover {
+.button:hover {
 	background-color: #fff;
 }
 
@@ -66,7 +67,7 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 1rem;
+	margin: 1rem 0;
 }
 
 .social ul {
@@ -95,24 +96,34 @@ ul {
 }
 
 footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
 	background-color: #080808;
 	color: #777;
-	position: fixed;
+	margin-top: 1rem;
+	padding: 1rem 0;
 	font-size: 0.85rem;
-	bottom: 0;
 	width: 100%;
 }
 
 footer a {
 	text-decoration: none;
 	color: #777;
+	text-align: center;
 }
 
-@media(max-width: 320px) {
-		
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+  	body {
+		font-size: 0.7rem;
+	}
+
 	.wrapper {
 	width:90%;
 }
@@ -123,7 +134,7 @@ footer a {
 }
 
 	h1 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin: 10px auto;
 }
 
@@ -131,7 +142,26 @@ footer a {
 	margin-bottom: 1rem;
 }
 
+.button {
+	font-size: 15px;
+	margin: 10px 0;
+	padding: 7px 15px;
+	border-radius: 5px;
+}
+
+.social {
+	margin: 5px 0;
+}
+
+.social img {
+	width: 1.5rem;
+}
+
 footer {
 	font-size: 0.6rem;
+	align-items: center;
+	padding: 0.5rem 0;
 }
+
 }
+
