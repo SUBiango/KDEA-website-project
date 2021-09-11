@@ -107,8 +107,13 @@ footer a {
 }
 
 
-@media(max-width: 320px) {
-	.wrapper {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+  	.wrapper {
 	max-width: 300px;
      }
 
@@ -119,4 +124,5 @@ footer a {
      footer {
 	font-size: 0.6rem;
 }
- }
+
+}
