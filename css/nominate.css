@@ -122,6 +122,11 @@ footer p {
 	width: 90%;
      }
 
+     .form-control input,
+	.form-control select {
+	font-size: 0.7rem;
+}
+
      h1 {
 	font-size: 1.5rem;
 	}
