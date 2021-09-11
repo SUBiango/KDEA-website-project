@@ -130,15 +130,14 @@ footer a {
 
      h1 {
 	font-size: 2rem;
-}
+	}
 
-.form-control input,
-.form-control select {
+	form {
 	width: 80%;
-}
+	}
 
      footer {
 	font-size: 0.6rem;
-}
+	}
 
 }
