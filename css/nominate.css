@@ -70,6 +70,7 @@ fieldset {
 
 select optgroup {
 	color: green;
+	font-weight: bold;
 	text-align: left;
 }
 
@@ -129,6 +130,11 @@ footer a {
 
      h1 {
 	font-size: 2rem;
+}
+
+.form-control input,
+.form-control select {
+	width: 80%;
 }
 
      footer {
