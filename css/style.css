@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-	width: 80%;
+	max-width: 768px;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -35,7 +35,7 @@ nav img {
 }
 
 .intro-text {
-	margin-bottom: 30px;
+	margin-bottom: 5rem;
 }
 
 .intro-text h1 {
@@ -46,7 +46,7 @@ nav img {
 	color: #ffd700;
 }
 
-.donation-info {
+.nomination-info {
 	margin-bottom: 2rem;
 }
 
@@ -96,16 +96,29 @@ footer p {
   	}
 
   	.container {
-  		width: 90%;
+  		max-width: 90%;
   	}
 
   	nav img {
-	width: 5rem;
+			width: 5rem;
+		}
+
+
+		.intro-text {
+			margin-bottom: 2rem;
+		}
+
+		.intro-text h1 {
+			font-size: 1.5rem;
+		}
+
 }
 
-	.intro-text h1 {
-	font-size: 1.5rem;
-}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
 }
 
