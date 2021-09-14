@@ -88,7 +88,8 @@ footer {
 }
 
 footer p {
-	font-size: 1rem;
+	font-size: 0.8rem;
+	color: #777;
 }
 
 @media only screen 
@@ -106,7 +107,7 @@ footer p {
   	}
 
   	nav img {
-			width: 5rem;
+			width: 4rem;
 		}
 
 
@@ -118,6 +119,15 @@ footer p {
 			font-size: 1.5rem;
 		}
 
+		footer {
+			padding: 8px 0;
+		}
+
+
+		footer p {
+			font-size: 0.5rem;
+			color: #777;
+		}
 }
 
 
@@ -127,6 +137,17 @@ footer p {
   and (-webkit-min-device-pixel-ratio: 1) {
   	.intro-text h1 {
 			font-size: 2rem;
+		}
+
+
+		footer {
+			padding: 8px 0;
+		}
+
+
+		footer p {
+			font-size: 0.5rem;
+			color: #777;
 		}
 }
 
