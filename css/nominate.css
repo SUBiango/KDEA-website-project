@@ -136,4 +136,14 @@ footer p {
 	font-size: 1.5rem;
 	}
 
+		footer {
+			padding: 8px 0;
+		}
+
+
+		footer p {
+			font-size: 0.5rem;
+			color: #777;
+		}
+
 }
