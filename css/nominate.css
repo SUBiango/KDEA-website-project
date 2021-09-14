@@ -21,6 +21,7 @@ body {
 h1 {
 	font-size: 2.5rem;
 	margin: 10px auto;
+	text-align: left;
 }
 
 nav {
@@ -31,6 +32,10 @@ nav a {
 	text-decoration: none;
 	color: #FFD700;
 	font-weight: bold;
+}
+
+.form-description {
+	text-align: left;
 }
 
 form {
