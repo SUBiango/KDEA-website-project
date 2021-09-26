@@ -3,26 +3,34 @@
 }
 
 body {
-	background-color:rgb(36, 41, 46);
+	background-color:#11111B;
 	font-family: 'Asap', sans-serif;
 	color: #fff;
 	font-size: 1.2rem;
 	text-align: center;
-	margin: 0;
 	line-height: 1.4;
 }
 
+h1, h2, h3, h4 {
+	color: #ffd700;
+	margin-bottom: 5px;
+}
+
 .wrapper {
-	max-width: 600px;
+	max-width: 752px;
 	margin: 1rem auto;
 	padding: 10px;
 }
+
+
 
 h1 {
 	font-size: 2.5rem;
 	margin: 10px auto;
 	text-align: left;
 }
+
+
 
 nav {
 	margin-top: 20px;
@@ -38,80 +46,7 @@ nav a {
 	text-align: left;
 }
 
-form {
-	background-color: #fff;
-  	box-shadow: 2px 7px 15px rgba(0, 0, 0, 0.4);
-  	color: #000;
-  	font-weight: bold;
-  	margin-bottom: 40px;
-  	padding: 30px 20px;
-  	border-radius: 5px;
-  	width: 100%;
-}
 
-fieldset {
-	margin-bottom: 15px;
-}
-
-
-
-.form-control {
-	margin-bottom: 1rem;
-	text-align: left;
-}
-
-.form-control label {
-	display: block;
-	margin-bottom: 5px;
-}
-
-.form-control input,
-.form-control select {
-	font-family: inherit;
-	display: block;
-	width: 100%;
-	padding: 10px;
-}
-
-select optgroup {
-	color: green;
-	font-weight: bold;
-	text-align: left;
-}
-
-.form-control textarea {
-	font-family: inherit;
-	display: block;
-	width: 100%;
-	height: 7rem;
-	padding: 10px;
-}
-
-
-button {
-	display: block;
-	background-color: #0A0A23;
-	color: #fff;
-	width: 100%;
-	border: 1px solid #0A0A23;
-	border-radius: 5px;
-	margin-bottom: 7px;
-	padding: 10px;
-	font-family: inherit;
-	font-size: 1rem;
-	font-weight: bold;
-	cursor: pointer;
-}
-
-footer {
-	text-align: center;
-	background-color: #080808;
-	padding: 20px 0;
-}
-
-footer p {
-	font-size: 1rem;
-}
 
 
 @media only screen 
